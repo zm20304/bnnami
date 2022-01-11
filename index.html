@@ -3,16 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title> 期末課題</title>
-  <script src="myjs.js"></script>
-  <link rel="stylesheet" href="mystile.css"> <!--この行を追加-->
+  <link rel="stylesheet" href="imagechange.css"> <!--この行を追加-->
+  <script src="ex1-1.js"></script>
+  
 </head>
 <body>
- <h1>東京について</h1>
- <a
- href="https://www.senso-ji.jp/guide/guide01.html/"><img src="./image/main_.jpg" alt="浅草公式"></a><br>
- <a
-href="https://www.senso-ji.jp/guide/guide01.html/">浅草公式にリンクします。</a><br>
-浅草雷門は必ず行くべき場所です。
-<h1>浅草寺の説明ともう一つのリンク</h1>
-<a href="t.html" target="_blank">別画面を開いてリンクします</a><br>
+  
+  <input type="button" value="画像の変更" onclick="imgchange1();">
+  <input type="button" value="戻す" onclick="imgchange2();">
+  <img src='./image/雷門.jpg' id="logo" alt="Josai Logo" class="imagechange">
 
